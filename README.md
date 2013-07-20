@@ -12,7 +12,7 @@ Colors are divided into 7 named groups:
 Every Flat-UI color is assigned a group and aliased by a Sass variable
 like so:
 **"$flat-{group name}-{number}"**
-where ```{group name``` is one of the color groups above, and ```{number}```
+where ```{group name}``` is one of the color groups above, and ```{number}```
 is a number between 1-4 (1 being the lightest shade in that group).
 
 Thus, ```purple``` has two variables: ```$flat-purple-1```, and ```$flat-purple-2```.
@@ -20,19 +20,19 @@ Thus, ```purple``` has two variables: ```$flat-purple-1```, and ```$flat-purple-
 ### Example - Lightest shade of gray
 ```sass
   #myDiv {
-    color: $flat-gray-1;
+    color: $flat-gray-1; // clouds
   }
 ```
 ### Example - Darkest shade of blue
 ```sass
   #myDiv {
-    color: $flat-blue-4;
+    color: $flat-blue-4; // midnight blue
   }
 ```
 ### Example - Only shade of yellow.
 ```sass
   #myDiv {
-    color: $flat-yellow-1;
+    color: $flat-yellow-1; // sun flower
   }
 ```
 
