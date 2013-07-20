@@ -17,19 +17,19 @@ is a number between 1-4 (1 being the lightest shade in that group).
 
 Thus, ```purple``` has two variables: ```$flat-purple-1```, and ```$flat-purple-2```.
 
-### Example - Reference the lightest shade of gray
+### Example - Lightest shade of gray
 ```sass
   #myDiv {
     color: $flat-gray-1;
   }
 ```
-### Example - Reference the darkest shade of blue
+### Example - Darkest shade of blue
 ```sass
   #myDiv {
     color: $flat-blue-4;
   }
 ```
-### Example - Reference the only shade of yellow.
+### Example - Only shade of yellow.
 ```sass
   #myDiv {
     color: $flat-yellow-1;
