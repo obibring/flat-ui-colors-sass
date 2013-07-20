@@ -9,8 +9,8 @@ Colors are divided into 7 named groups:
   * **red**         (2 shades)
   * **yellow**      (1 shade)
 
-Every Flat-UI color is aliased by a Sass variable creating using the
-naming convention: "$flat-<group name>-<number>", where
+Every Flat-UI color is assigned a group and aliased by a Sass variable
+like so: **"$flat-<group name>-<number>"**, where
 ```<number>``` is an arbitrary number between 1-4 (1 being the lightest
 shade in that group).
 
