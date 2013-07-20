@@ -62,7 +62,7 @@ Clone the repo:
 
 Copy ```_flat_colors.scss``` into your sass import path:
 ```sh
-  cp flat-ui-colors-sass/_flat_colors <some directory in your sass include path>
+  cp flat-ui-colors-sass/_flat_colors.scss <some directory in your sass include path>
 ```
 
 Import the file at the top of your stylesheet:
