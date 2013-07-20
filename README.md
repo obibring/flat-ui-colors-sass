@@ -1,4 +1,10 @@
-# Easy to Remember Flat-UI colors for Sass.
+# Easy to Remember Flat-UI colors.
+
+### What this is
+A set of easy to remember sass variables referencing colors from
+[Flat UI](http://designmodo.github.io/Flat-UI/).
+
+### How it works
 
 Colors are divided into 7 named groups:
   * **blue**        (4 shades)
@@ -9,13 +15,13 @@ Colors are divided into 7 named groups:
   * **red**         (2 shades)
   * **yellow**      (1 shade)
 
-Every Flat-UI color is assigned a group and aliased by a Sass variable
-like so:
+Every Flat-UI color is aliased by a Sass variable like so:
 **"$flat-{group name}-{number}"**
 where ```{group name}``` is one of the color groups above, and ```{number}```
 is a number between 1-4 (1 being the lightest shade in that group).
 
-Thus, ```purple``` has two variables: ```$flat-purple-1```, and ```$flat-purple-2```.
+Thus, since ```purple``` has two shades, it also has two variables:
+```$flat-purple-1```, and ```$flat-purple-2```.
 
 ### Example - Lightest shade of gray
 ```sass
