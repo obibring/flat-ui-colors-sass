@@ -29,7 +29,7 @@ Colors are divided into 7 named groups:
   }
 ```
 
-### Or the darkest shade of orange:
+#### Or the darkest shade of orange:
 ```sass
   #myDiv {
     color: $flat-orange-3; // pumpkin
