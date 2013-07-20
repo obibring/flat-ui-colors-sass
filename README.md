@@ -10,9 +10,12 @@ Colors are divided into 7 named groups:
   * **yellow**      (1 shade)
 
 Every Flat-UI color is assigned a group and aliased by a Sass variable
-like so: **"$flat-{group name}-{number}"**, where
-```<number>``` is an arbitrary number between 1-4 (1 being the lightest
-shade in that group).
+like so:
+**"$flat-{group name}-{number}"**
+where ```{group name``` is one of the color groups above, and ```{number}```
+is a number between 1-4 (1 being the lightest shade in that group).
+
+Thus, ```purple``` has two variables: ```$flat-purple-1```, and ```$flat-purple-2```.
 
 ### Example - Reference the lightest shade of gray
 ```sass
