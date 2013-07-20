@@ -16,28 +16,28 @@ Colors are divided into 7 named groups:
   * **yellow**      (1 shade)
 
 #### Want the lightest shade of gray from Flat UI?
-```css
+```sass
   #myDiv {
     color: $flat-gray-1; // clouds
   }
 ```
 
 #### How about darkes shade of blue?
-```css
+```sass
   #myDiv {
     color: $flat-blue-4; // midnight blue
   }
 ```
 
 ### Or the darkest shade of orange:
-```css
+```sass
   #myDiv {
     color: $flat-orange-3; // pumpkin
   }
 ```
 
 #### Or only shade of yellow:
-```css
+```sass
   #myDiv {
     color: $flat-yellow-1; // sun flower
   }
