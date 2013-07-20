@@ -1,4 +1,4 @@
-# Easy to Remember Flat-UI colors.
+# Easy to Remember Flat-UI colors for Sass.
 
 Colors are divided into 7 named groups:
   * **blue**        (4 shades)
