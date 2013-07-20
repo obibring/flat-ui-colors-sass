@@ -15,32 +15,44 @@ Colors are divided into 7 named groups:
   * **red**         (2 shades)
   * **yellow**      (1 shade)
 
-Every Flat-UI color is aliased by a Sass variable like so:
-**"$flat-{group name}-{number}"**
-where ```{group name}``` is one of the color groups above, and ```{number}```
-is a number between 1-4 (1 being the lightest shade in that group).
-
-Thus, since ```purple``` has two shades, it also has two variables:
-```$flat-purple-1```, and ```$flat-purple-2```.
-
-### Example - Lightest shade of gray
-```sass
+#### Want the lightest shade of gray from Flat UI?
+```css
   #myDiv {
     color: $flat-gray-1; // clouds
   }
 ```
-### Example - Darkest shade of blue
-```sass
+
+#### How about darkes shade of blue?
+```css
   #myDiv {
     color: $flat-blue-4; // midnight blue
   }
 ```
-### Example - Only shade of yellow.
-```sass
+
+### Or the darkest shade of orange:
+```css
+  #myDiv {
+    color: $flat-orange-3; // pumpkin
+  }
+```
+
+#### Or only shade of yellow:
+```css
   #myDiv {
     color: $flat-yellow-1; // sun flower
   }
 ```
+
+### Naming Convention
+
+Each Flat-UI color is assigned an alias using: **"$flat-{group name}-{shade number}"**
+where:
+  * ```{group name}``` is one of the color groups above
+  * ```{shade number}``` is a number between 1 and the number of shades in that group
+  (1 being the lightest shade).
+
+Thus, since the ```purple``` group has two shades, there are two variables:
+```$flat-purple-1```, and ```$flat-purple-2```.
 
 ## Install
 Clone the repo:
@@ -48,7 +60,7 @@ Clone the repo:
  git clone git@github.com:obibring/flat-ui-colors-sass.git
 ```
 
-Copy ```_flat_colors.scss``` into your sass directory:
+Copy ```_flat_colors.scss``` into your sass import path:
 ```sh
   cp flat-ui-colors-sass/_flat_colors <some directory in your sass include path>
 ```
