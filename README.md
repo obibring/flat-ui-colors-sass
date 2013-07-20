@@ -1,10 +1,10 @@
 # Easy to Remember Flat-UI colors.
 
-### What this is
+## What is this?
 A set of easy to remember sass variables referencing colors from
 [Flat UI](http://designmodo.github.io/Flat-UI/).
 
-### How it works
+## How does it work?
 
 Colors are divided into 7 named groups:
   * **blue**        (4 shades)
