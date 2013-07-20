@@ -1,13 +1,13 @@
 # Easy to Remember Flat-UI colors.
 
 Colors are divided into 7 named groups:
-  * blue        (4 shades)
-  * gray        (4 shades)
-  * green       (4 shades)
-  * orange      (3 shades)
-  * purple      (2 shades)
-  * red         (2 shades)
-  * yellow      (1 shade)
+  * **blue**        (4 shades)
+  * **gray**        (4 shades)
+  * **green**       (4 shades)
+  * **orange**      (3 shades)
+  * **purple**      (2 shades)
+  * **red**         (2 shades)
+  * **yellow**      (1 shade)
 
 Every Flat-UI color is aliased by a Sass variable creating using the
 naming convention: "$flat-<group name>-<number>", where
