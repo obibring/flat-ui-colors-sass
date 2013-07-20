@@ -36,7 +36,7 @@ Colors are divided into 7 named groups:
   }
 ```
 
-#### Or only shade of yellow:
+#### Or the only shade of yellow:
 ```sass
   #myDiv {
     color: $flat-yellow-1; // sun flower
