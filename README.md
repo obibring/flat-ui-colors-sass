@@ -67,5 +67,5 @@ Copy ```_flat_colors.scss``` into your sass import path:
 
 Import the file at the top of your stylesheet:
 ```sass
-  @import "flat_colors";
+  @import "flat-colors";
 ```
