@@ -54,7 +54,9 @@ where:
 Thus, since the ```purple``` group has two shades, there are two variables:
 ```$flat-purple-1```, and ```$flat-purple-2```.
 
-## Install
+## Install and usage
+
+### From GitHub
 Clone the repo:
 ```sh
  git clone git@github.com:obibring/flat-ui-colors-sass.git
@@ -69,3 +71,15 @@ Import the file at the top of your stylesheet:
 ```sass
   @import "flat-colors";
 ```
+
+### From Node.js (npm)
+```sh
+  npm install flat-ui-colors-sass
+```
+
+Import the file at the top of your stylesheet:
+```sass
+  @import "flat-colors";
+```
+
+**NOTE:** Do not forget to set ```node_modules``` directory as [SASS include path](https://www.npmjs.com/package/node-sass#includepaths).

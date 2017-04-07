@@ -1,0 +1,35 @@
+{
+  "name": "flat-ui-colors-sass",
+  "version": "1.0.0",
+  "description": "A set of easy to remember sass variables referencing colors from Flat UI.",
+  "main": "_flat-colors.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obibring/flat-ui-colors-sass.git"
+  },
+  "keywords": [
+    "flat",
+    "ui",
+    "colors",
+    "sass",
+    "scss"
+  ],
+  "author": {
+    "url": "https://github.com/obibring/flat-ui-colors-sass/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "Ryan Jacobs",
+      "url": "https://github.com/ryanmjacobs"
+    },
+    {
+      "name": "William Urbano",
+      "url": "https://github.com/williamurbano"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/obibring/flat-ui-colors-sass/issues"
+  },
+  "homepage": "https://github.com/obibring/flat-ui-colors-sass#readme"
+}
